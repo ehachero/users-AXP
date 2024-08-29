@@ -1,0 +1,15 @@
+{
+    "builds": [
+      {
+        "src": "users_AXP.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "users_AXP.py"
+      }
+    ]
+  }
+  
